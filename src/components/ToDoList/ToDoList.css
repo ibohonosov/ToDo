@@ -1,0 +1,32 @@
+
+.todo__item {
+    position: absolute;
+    cursor: move;
+    min-width: 220px;
+    color: black;
+    padding: 1em;
+    border-radius: 5px;
+   
+  }
+
+  @media (max-width: 375px) {
+    .todo__item{
+        
+      min-width: 100px;
+      float: right;
+
+    }}
+  
+  .delete {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: none;
+    border: none;
+  }
+  
+  .delete:hover {
+    color: red;
+    cursor: pointer;
+  }
+  

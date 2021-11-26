@@ -1,0 +1,39 @@
+input {
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(26, 24, 182);
+    background: none;
+    padding: 0 10px;
+    color: #fff;
+    
+  }
+  
+  .enter {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background: none;
+    margin-top: 2px;
+    border: 2px solid rgb(26, 24, 182);
+    color: #fff;
+    outline: none;
+    
+  }
+  
+  .enter:hover {
+    background: rgb(26, 24, 182);
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 375px) {
+    input{
+      width: 150px;
+      color: rgb(151, 5, 5);
+    }
+    .enter {
+        width: 55px;
+    }
+}
