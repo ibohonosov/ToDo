@@ -3,7 +3,7 @@
     position: absolute;
     cursor: move;
     min-width: 220px;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 1em;
     border-radius: 5px;
    

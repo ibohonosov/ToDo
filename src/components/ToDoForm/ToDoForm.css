@@ -6,7 +6,7 @@ input {
     border-bottom: 2px solid rgb(26, 24, 182);
     background: none;
     padding: 0 10px;
-    color: #fff;
+    color: rgb(26, 24, 182);
     
   }
   
@@ -17,13 +17,13 @@ input {
     background: none;
     margin-top: 2px;
     border: 2px solid rgb(26, 24, 182);
-    color: #fff;
+    color: rgb(26, 24, 182);
     outline: none;
     
   }
   
   .enter:hover {
-    background: rgb(26, 24, 182);
+    background: rgb(105, 82, 235);
     cursor: pointer;
   }
   
